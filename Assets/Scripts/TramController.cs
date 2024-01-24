@@ -16,11 +16,11 @@ public class TramController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += speed * position;
-        if (Input.GetMouseButtonDown(0))
-        {
-            isFlipped = !isFlipped;
-            position = new Vector3(position.x, -1 * position.y, position.z);
-        }
+        //transform.position += speed * position;
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    isFlipped = !isFlipped;
+        //    position = new Vector3(position.x, -1 * position.y, position.z);
+        //}
     }
 }
